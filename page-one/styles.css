@@ -1,0 +1,27 @@
+.container{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    height: 70%;
+}
+
+.text-box{
+    display: flex;
+    height: 30%;
+    background-color: 1A1E22;
+}
+
+.text{
+    width: 85%;
+    margin: 5%;
+    color: white;
+    overflow: auto;
+    scrollbar-color: white #1A1E22;
+}
+.links{
+    display: flex;
+    width: 15%;
+}
