@@ -8,6 +8,7 @@
     height: 70%;
     background-image: url(../images/testop3.png);
     background-size: cover;
+    position: relative;
 }
 
 .text-box{
