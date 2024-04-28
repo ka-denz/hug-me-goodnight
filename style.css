@@ -1,8 +1,34 @@
 body{
     display: block;
     margin-top: 10%;
-    margin-left: 50%;
+
     
-    color: white;
-    background-color: #1A1E22;
+    font-family: 'Facade Ouest';
+    color: #e9fffd;
+    background-color: #010e16;
+    text-align: center;
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+.playlist{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+@font-face {
+    font-family: Facade Ouest;
+    src: url(fonts/Facade-Ouest.woff);
+}
+
+a{
+    color: #009788;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }

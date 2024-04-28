@@ -14,17 +14,22 @@
 .text-box{
     display: flex;
     height: 30%;
-    background-color: 1A1E22;
+    background-color: #010e16;
 }
 
 .text{
     width: 85%;
     margin: 5%;
-    color: white;
+    color: #e9fffd;
     overflow: auto;
-    scrollbar-color: white #1A1E22;
+    scrollbar-color: #e9fffd #010e16;
 }
 .links{
     display: flex;
     width: 15%;
+}
+
+@font-face {
+    font-family: Facade Ouest;
+    src: url(../fonts/Facade-Ouest.woff);
 }
