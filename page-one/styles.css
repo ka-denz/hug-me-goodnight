@@ -6,7 +6,7 @@
 
 .image{
     height: 70%;
-    background-image: url(../images/testop3.png);
+    background-image: url(../images/2-1.png);
     background-size: cover;
     background-position: center;
 }
@@ -17,19 +17,46 @@
     background-color: #010e16;
 }
 
-.text{
+.thoughts{
+    font-family: 'Facade Sud Ouest';
     width: 85%;
-    margin: 5%;
+    color: #e9fffd;
+}
+
+.text{
+   font-family: 'Facade Ouest';
+   font-size: 1.5rem;
+    width: 85%;
+    margin: 3%;
     color: #e9fffd;
     overflow: auto;
     scrollbar-color: #e9fffd #010e16;
 }
 .links{
+    display: block;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.arrows{
     display: flex;
-    width: 15%;
+}
+
+a{
+    color: #e9fffd;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }
 
 @font-face {
     font-family: Facade Ouest;
     src: url(../fonts/Facade-Ouest.woff);
+}
+
+@font-face {
+    font-family: Facade Sud Ouest;
+    src: url(../fonts/Facade-Sud-Ouest.woff);
 }
